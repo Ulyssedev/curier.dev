@@ -3,6 +3,7 @@ import '../styles/main.scss';
 import Metadata from '@components/metadata.astro';
 import Header from '@components/header.astro';
 import Hacked from '@components/hacked.astro';
+import { Flamethrower } from "astro-flamethrower";
 ---
 <head>
   <Metadata/>
@@ -13,6 +14,7 @@ import Hacked from '@components/hacked.astro';
     <div class="container">
         <slot />
     </div>
+    <Flamethrower color="#009ed3" />
   </body>
 </html>
 <Hacked/>

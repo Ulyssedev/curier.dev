@@ -1,14 +1,14 @@
 <script lang="js">
-const letters = "abcdefghijklmnopqrstuvwxyz.";
+var letters = "abcdefghijklmnopqrstuvwxyz.";
 
-let interval = null;
+var interval = null;
 
 document.querySelector("h1").onmouseover = event => {  
   let iteration = 0;
   
   clearInterval(interval);
   
-  interval = setInterval(() => {
+  var interval = setInterval(() => {
     event.target.innerText = event.target.innerText
       .split("")
       .map((letter, index) => {
