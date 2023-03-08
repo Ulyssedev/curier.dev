@@ -1,0 +1,22 @@
+{
+  "name": "curier.dev",
+  "version": "1.0.0",
+  "description": "Official repository of the curier.dev website.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "astro": "^2.1.0"
+  },
+  "devDependencies": {
+    "sass": "^1.58.3",
+    "typescript": "^4.9.5"
+  }
+}
