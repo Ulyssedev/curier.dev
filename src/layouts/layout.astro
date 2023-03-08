@@ -1,0 +1,18 @@
+---
+import '../styles/main.scss';
+import Metadata from '@components/metadata.astro';
+import Header from '@components/header.astro';
+import Hacked from '@components/hacked.astro';
+---
+<head>
+  <Metadata/>
+</head>
+<html lang="fr">
+  <body>
+    <Header/>
+    <div class="container">
+        <slot />
+    </div>
+  </body>
+</html>
+<Hacked/>

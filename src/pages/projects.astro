@@ -1,16 +1,6 @@
 ---
-import '../styles/main.scss';
-import Metadata from '../components/metadata.astro';
-import Header from '../components/header.astro';
-import Hacked from '@components/hacked.astro';
+import Layout from '../layouts/layout.astro'
 ---
-<head>
-  <Metadata/>
-</head>
-<html lang="fr">
-  <body>
-    <Header/>
-    <h1>Projets</h1>
-  </body>
-</html>
-<Hacked/>
+<Layout>
+  <h1 data-value="Projets">Projets</h1>
+</Layout>
