@@ -1,0 +1,9 @@
+<script>
+var a = document.getElementsByTagName('a');
+for (var i = 0; i < 3; i++) {
+  a[i].className += ' animate';
+  setTimeout(function() {
+    a[i].className = a[i].className.replace(' animate', '');
+  }, 1);
+}
+</script>
