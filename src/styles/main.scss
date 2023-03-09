@@ -16,11 +16,6 @@ nav {
     width: 100%;
 
     img {
-        opacity: 0;
-        transform: translateY(-100%);
-        animation-name: slideIn;
-        animation-duration: 0.5s;
-        animation-fill-mode: forwards;
 
         width: 3rem;
         height: 3rem;
@@ -41,11 +36,6 @@ nav {
     }
 
     .navtitle {
-        opacity: 0;
-        transform: translateY(-100%);
-        animation-name: slideIn;
-        animation-duration: 0.5s;
-        animation-fill-mode: forwards;
         
         text-decoration: none;
         color: white;
@@ -62,6 +52,14 @@ nav {
         }
     }
 
+}
+
+.animate {
+    opacity: 0;
+    transform: translateY(-100%);
+    animation-name: slideIn;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
 }
 
 .container {
@@ -91,6 +89,38 @@ nav {
   }
 }
 
+footer {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 100;
+    text-decoration: none;
+}
+
+.linkedin {
+    content: url('https://api.iconify.design/mdi/linkedin.svg?color=white');
+    width: 30px;
+    height: 30px;
+}
+
+.mail {
+    content: url('https://api.iconify.design/mdi/email.svg?color=white');
+    width: 30px;
+    height: 30px;
+}
+
+.github {
+    content: url('https://api.iconify.design/mdi/github.svg?color=white');
+    width: 30px;
+    height: 30px;
+}
+
 /* breakpoint at 768px */
 @media screen and (max-width: 768px) {
 nav {
@@ -112,7 +142,7 @@ nav {
         }
 
         img {
-            width: 1.5rem !important;
+            width: 1.75rem !important;
             margin: 0.5rem !important;
         }
     }
