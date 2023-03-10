@@ -13,7 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "astro": "^2.1.0",
+    "astro": "^2.1.2",
     "astro-flamethrower": "^0.1.2",
     "flamethrower-router": "^0.0.0-meme.12"
   },

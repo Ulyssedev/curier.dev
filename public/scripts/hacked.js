@@ -1,5 +1,3 @@
-<script data-reload >
-
 var letters = "abcdefghijklmnopqrstuvwxyz";
 var h1Element = document.querySelector("h1");
 var iteration = 0;
@@ -27,4 +25,3 @@ var interval = setInterval(() => {
     iteration += 1 / 3;
   }, 30);
 }, 0);
-</script>

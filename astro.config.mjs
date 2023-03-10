@@ -8,4 +8,7 @@ export default defineConfig({
         { path: '/contact', src: 'pages/contact.astro' },
         { path: '/projects', src: 'pages/projectsastro' },
     ],
+    experimental: {
+        assets: true,
+    },
 });
