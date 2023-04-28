@@ -1,22 +1,23 @@
 ---
-import '../styles/main.scss';
-import Metadata from '@components/metadata.astro';
-import Header from '@components/header.astro';
-import Footer from '@components/footer.astro';
-import Animation from '@components/animation.astro';
+import "../styles/main.scss";
+import Metadata from "@components/metadata.astro";
+import Header from "@components/header.astro";
+import Footer from "@components/footer.astro";
+import Animation from "@components/animation.astro";
 import { Flamethrower } from "astro-flamethrower";
 ---
+
 <head>
-  <Metadata/>
+  <Metadata />
 </head>
 <html lang="fr">
   <body>
-    <Header/>
+    <Header />
     <div class="container">
-        <slot />
+      <slot />
     </div>
-    <Footer/>
-    <Flamethrower color="#00000"/>
+    <Footer />
+    <Flamethrower color="#00000" />
   </body>
 </html>
-<Animation/>
+<Animation />
